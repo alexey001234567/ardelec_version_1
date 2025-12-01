@@ -43,7 +43,7 @@ export default function Services() {
           <p className="text-gray-700">
             Ardelec delivers turn-key commercial & industrial energy storage solutions (LFP BESS) for peak shaving,
             demand response, PV integration, microgrids and backup power. Containerized or cabinet systems include PCS,
-            MV equipment, EMS, HVAC and fire safety, fully engineered, commissioned and maintained to IEC/IEEE/UL standards.
+            MV equipment,  MS, HVAC and fire safety, fully engineered, commissioned and maintained to IEC/IEEE/UL standards.
           </p>
 
           <Link 
