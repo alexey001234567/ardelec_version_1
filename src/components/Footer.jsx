@@ -1,16 +1,11 @@
 import logoHorizontal from '../assets/logo_horizontal_red.svg';
- 
- /* eslint-disable no-unused-vars */
 
- 
-import { useState, useRef } from "react";
-import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
-import { useTrail, animated, useSpring } from "react-spring";
-import logo from "../assets/logo_horizontal_red.svg";
 
 
- const socialUrls = [
+
+
+const socialUrls = [
   "http://www.facebook.com/",
   "http://www.twitter.com/",
   "http://www.linkedin.com/",
@@ -55,17 +50,7 @@ export function SocialIcons() {
                 considering the energy
               </p>
             </div>
-            
-            <div>
-              <img
-                src={logoHorizontal}
-                alt="Ardelec logotype"
-                className="h-12 mb-4 mx-auto"
-              />
-              <p className="text-gray-500 text-base text-center">
-                considering the energy
-              </p>
-            </div>
+
 
           </div>
 
@@ -73,20 +58,26 @@ export function SocialIcons() {
 
 
           {/* COLUMN 2 — CONTACT BLOCKS VERTICAL */}
-          <div className="flex flex-col items-center justify-center gap-6 w-full">
+           <div className="flex flex-col items-center justify-center ">
 
-              <h3 className="font-semibold text-gray-700 text-base">Contact Us</h3>
+            <h2 className="font-semibold text-gray-700 text-base whitespace-nowrap  pb-[3vh] ">Contact Us</h2>
+          
 
+          <div className="flex  flex-col items-center justify-center gap-6  lg:flex-row  ">
 
             {/* BLOCK #1 */}
-            <div className="border border-black/50 rounded-[5px] p-4 text-sm space-y-4 w-full max-w-[50vw] text-center">
+            <div className="  border border-black/50 rounded-[5px] p-4 text-sm space-y-4   text-center   lg:w-[20vw] ">
 
-              <div className="flex items-start gap-3 justify-center">
+              <h3 className="text-gray-700 text-base font-normal">
+                ARDELEC INDUSTRIAL SOLUTIONS LTD
+              </h3>
+              <div className="flex items-start gap-3 justify-center  ">
                 <svg className="w-4 h-4 text-gray-700 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                 </svg>
+
                 <div className="text-gray-700 text-left">
-                  <p>ARDELEC INDUSTRIAL SOLUTIONS LTD</p>
+                 
                   <p>128, City Road, London, EC1V 2NX, UK</p>
                   <p>Company Reg. Number: 14794597</p>
                 </div>
@@ -109,8 +100,9 @@ export function SocialIcons() {
             </div>
 
 
+
             {/* BLOCK #2 */}
-            <div className="border border-black/50 rounded-[5px] p-4 text-sm space-y-4 w-full max-w-[50vw] text-center">
+            <div className=" border border-black/50 rounded-[5px] p-4 text-sm space-y-4  text-center   lg:w-[20vw]   ">
               <h3 className="text-gray-700 text-base font-normal">
                 Meta FX Global Software and Trade Ltd
               </h3>
@@ -145,7 +137,7 @@ export function SocialIcons() {
 
         </div>
       </div>
-
+</div>
 
   <div className="flex justify-center items-center">
     <p className="text-gray-700/50">

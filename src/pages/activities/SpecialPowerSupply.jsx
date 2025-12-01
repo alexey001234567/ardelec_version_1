@@ -2,9 +2,31 @@ import specialPowerSupply_1 from '../../assets/special_power_supply_1.webp'
 import specialPowerSupply_2 from '../../assets/special_power_supply_2.webp'
 import specialPowerSupply_3 from '../../assets/special_power_supply_3.webp'
 
+import logoHorizon1 from "../../assets/certificates/elektronik-fiber-optik1.webp";
+import logoHorizon2 from "../../assets/certificates/elektronik-fiber-optik2.webp";
+import logoHorizon3 from "../../assets/certificates/ISO-certificate.webp";
+import logoHorizon4 from "../../assets/certificates/ISO-certificate-thumb2.webp";
+
+
+ 
+
+
 export default function SpecialPowerSupply() {
+
+  const openImage = () => {
+    window.open(logoHorizon1, "_blank");
+  };
+
+  const openImage2 = () => {
+    window.open(logoHorizon3, "_blank");
+  };
+
+
   return (
 
+
+
+    
      <div>
 
     <section className="container max-w-[1320px] mx-auto px-6 py-6">
@@ -52,17 +74,40 @@ export default function SpecialPowerSupply() {
           </p>
         </div>
       </div>
+
+
+           <section className="pt-15">
+
+            <div className="flex item-center justify-center p-1">
+              <h1 className="text-3xl font-bold mb-8 text-gray-700">Certificates</h1>
+           </div>
+
+ 
+            <div className="flex items-center justify-center p-1 mx-auto w-full max-w-[50%] h-auto  ">
+                  <img
+                    src={logoHorizon2}
+                    alt="Special power supply image"
+                    onClick={openImage}
+                    className=" m-2 border border-black/30 rounded-[5px] cursor-pointer transition-all duration-100 ease-in-out hover:brightness-75 hover:scale-105"
+                  />
+
+                  <img
+                    src={logoHorizon4}
+                    alt="Special power supply image"
+                    onClick={openImage2}
+                    className="m-2 border border-black/30 rounded-[5px] cursor-pointer transition-all duration-100 ease-in-out hover:brightness-75 hover:scale-105"
+                  />
+
+            </div>
+
+           </section>
+
+
+     
     </section>
 
 
-     <section className="container max-w-[1320px] mx-auto px-6 py-6">
-              <h1 className="text-3xl font-bold mb-8 text-gray-700">Certificates</h1>
 
-              <div>
-                
-              </div>
-
-     </section>
 
     </div>
 

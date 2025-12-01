@@ -39,7 +39,7 @@ export default function Services() {
       <div className="flex items-start space-x-4">
         <img src={energyStorageIcon} alt="Energy Storage Icon" className="w-12 h-12 shrink-0" />
         <div>
-          <h3 className="text-gray-700 text-xl font-semibold mb-1">Industrial Energy Storage</h3>
+          <h3 className="text-gray-700 text-xl font-semibold mb-1">Commercial & Industrial Energy Storage</h3>
           <p className="text-gray-700">
             Ardelec delivers turn-key commercial & industrial energy storage solutions (LFP BESS) for peak shaving,
             demand response, PV integration, microgrids and backup power. Containerized or cabinet systems include PCS,

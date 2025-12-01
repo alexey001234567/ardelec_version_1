@@ -33,10 +33,10 @@ export default function ActivitiesIndex() {
       alt: "Power Generation"
     },
     {
-      label: "Industrial Energy Storage",
+      label: "Commercial & Industrial Energy Storage",
       url: "/activities/EnergyStorage",
       img: energyStorage,
-      alt: "Industrial Energy Storage"
+      alt: "Commercial & Industrial Energy Storage"
     },
   ];
 
